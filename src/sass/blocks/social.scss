@@ -1,0 +1,53 @@
+.social {
+    display: flex;
+    justify-content: center;
+}
+
+.social__item {
+    width: 55px;
+    height: 55px;
+    padding: 12px 10px;
+
+    font-size: 30px;
+    color: $pink;
+    line-height: 1;
+
+    text-decoration: none;
+
+    background-color: $yellow;
+    border-right: 1px solid $pink;
+
+    transition: background-color .1s linear, color .1s linear;
+
+    &:last-child {
+        border-right: 0;
+    }
+
+    &:hover {
+        color: $white;
+        background-color: $pink;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

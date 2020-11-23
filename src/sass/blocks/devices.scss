@@ -1,0 +1,34 @@
+.devices {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    position: relative;
+
+    @media (max-width: $breakpoint-sm) {
+        max-width: 320px;
+    }
+}
+
+.devices__item {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.devices__item--iphone {
+    position: absolute;
+    bottom: -50px;
+    right: 0;
+    z-index: 1;
+
+    @media (max-width: $breakpoint-sm) {
+        width: 180px;
+        bottom: -50px;
+        right: -15px;
+    }
+}
+
+
+
+

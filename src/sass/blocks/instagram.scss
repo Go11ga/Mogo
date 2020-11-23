@@ -1,0 +1,28 @@
+.instagram {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @media (max-width: $breakpoint-lg) {
+        justify-content: flex-start;
+    }
+}
+
+.instagram__item {
+    width: 33%;
+    border-bottom: 1px solid $white;
+
+    @media (max-width: $breakpoint-lg) {
+        width: auto;
+        border-right: 1px solid $white;
+    }
+}
+
+.instagram__item img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+

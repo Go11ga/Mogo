@@ -1,0 +1,60 @@
+/* Variables */
+@import "vars";
+
+
+/* Default styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 14px;
+    color: $black;
+    line-height: 1.6;
+
+    background-color: $white;
+}
+
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/* Blocks */
+@import "blocks/header";
+@import "blocks/nav";
+@import "blocks/intro";
+@import "blocks/btn";
+@import "blocks/slider";
+@import "blocks/section";
+@import "blocks/card";
+@import "blocks/stat";
+@import "blocks/services";
+@import "blocks/devices";
+@import "blocks/wedo";
+@import "blocks/accordion";
+@import "blocks/reviews";
+@import "blocks/social";
+@import "blocks/logos";
+@import "blocks/works";
+@import "blocks/clients";
+@import "blocks/blog";
+@import "blocks/map";
+@import "blocks/footer";
+@import "blocks/subscribe";
+@import "blocks/blogs";
+@import "blocks/instagram";
+@import "blocks/copyright";
+
+
+/* Slick */
+@import "vendor/slick";

@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    padding-top: 30px;
+
+    position: absolute; /* relative body*/
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+
+    @media (max-width: $breakpoint-md) {
+        padding: 15px 0;
+    }
+}
+
+.header--fixed {
+    padding: 15px 0;
+    background-color: $pink;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    transform: translate3d(0,0,0);
+}
+
+.header--active {
+    background-color: $pink;
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: $white;
+
+    cursor: pointer;
+
+    transition: color .2s linear;
+
+    &:hover {
+        color: $yellow;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.logos {
+    margin: 0 -15px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: $breakpoint-sm) {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+.logos__item{
+    padding: 0 15px;
+
+    @media (max-width: $breakpoint-sm) {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
+.logos__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+
+    @media (max-width: $breakpoint-sm) {
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+
+

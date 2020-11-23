@@ -1,0 +1,20 @@
+.btn {
+    display: inline-block;
+    padding: 8px 30px;
+
+    border: 3px solid $white;
+
+    font-weight: 700;
+    color: $white;
+    line-height: 1;
+
+    text-transform: uppercase;
+    text-decoration: none;
+
+    transition: background-color .2s linear, color .2s linear;
+
+    &:hover {
+        background-color: $white;
+        color: $black;
+    }
+}
